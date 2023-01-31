@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T20:17:32.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="ohund0TZW3Hq7MlLY3oc" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T20:20:44.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="e6r60beo0O31e3zyPYtF" version="20.8.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2082" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2661" dy="2064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -202,10 +202,10 @@
           <mxGeometry x="-280.0041025641021" y="504.9961538461538" as="geometry" />
         </mxCell>
         <mxCell id="o2MhpFMnRLZHMtqYVOVF-13" value="" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-820" y="701" width="980" height="80" as="geometry" />
+          <mxGeometry x="197.32" y="1225" width="600" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-14" value="#DRAWBACK1 : WE HAVE TO DECIDE MANUALLY WHAT NEW CUSTOMER IS SINGLE OR MULTI&#xa;filled by &quot;N-CustomerName&quot; (N refers to New)&#xa;&#xa;#DRAWBACK2 : THERE ARE SOME DIFFERENT CUSTOMERID (eg. CustomerID: &quot;N-Intel&quot;, &quot;N-INTEL COR&quot;), BUT ACTUALLY REFERS TO THE SAME A CUSTOMER&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-800" y="710" width="930" height="62" as="geometry" />
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-14" value="??? STRUGGLE &#xa;&#xa;- IF CREATE RELATIONSHIP FIRST, TAKE MORE TIME TO CLEAN DATA&#xa;FOR EXAMPLE: BETWEEN DEPARTMENT AND ACCOUNT&#xa;&#xa;+ department_number: 63120 presents in Accounts, but not present in Department&#xa;=&gt; database not allow to upload data" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="230" y="1250" width="510" height="122" as="geometry" />
         </mxCell>
         <mxCell id="o2MhpFMnRLZHMtqYVOVF-17" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
