@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T20:37:30.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="s9o5OBhvT5UjynFNWj3Z" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T20:41:47.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="fgvj08khuZKSnwhWr0rm" version="20.8.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2837" dy="2230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2661" dy="2064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -437,7 +437,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0RsDXBq4UFaGKPyPwDrQ-65" value="Python Script: loadTable.py&#xa;Purpose: load all data to created tables on database" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1730" y="800" width="440" height="120" as="geometry">
+          <mxGeometry x="2080" y="800" width="440" height="120" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -447,7 +447,7 @@
         <mxCell id="0RsDXBq4UFaGKPyPwDrQ-66" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
             <mxPoint x="1630" y="834.7399999999998" as="sourcePoint" />
-            <mxPoint x="1720" y="834.7399999999998" as="targetPoint" />
+            <mxPoint x="2080" y="835" as="targetPoint" />
             <mxPoint x="-40" y="32" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -471,6 +471,24 @@
             <mxPoint x="-40" y="32" as="offset" />
             <Array as="points">
               <mxPoint x="1320" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0RsDXBq4UFaGKPyPwDrQ-72" value="Python Script: run.py&#xa;Purpose: run functions in order" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2080" y="970" width="420" height="50" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0RsDXBq4UFaGKPyPwDrQ-74" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.318;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="0.5" y="41" relative="1" as="geometry">
+            <mxPoint x="2300.04" y="920" as="sourcePoint" />
+            <mxPoint x="2260" y="970" as="targetPoint" />
+            <mxPoint x="-40" y="32" as="offset" />
+            <Array as="points">
+              <mxPoint x="2310.04" y="950" />
+              <mxPoint x="2070.04" y="981" />
+              <mxPoint x="2240.04" y="981" />
+              <mxPoint x="2140.04" y="981" />
             </Array>
           </mxGeometry>
         </mxCell>
