@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T21:59:06.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="A_xwEYKb_DFBABmbCW5m" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T19:40:05.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="gqUU7CBLU3USwS9DBIEL" version="20.8.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2545" dy="2126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -18,10 +18,10 @@
         <mxCell id="c1FFS8SZqQwpL22P5DFt-1" value="Download Manually From Azure Portal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--16" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--16" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.412;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="kdGjKbwBno01de8cuiCs-61">
           <mxGeometry x="-0.25" y="170" width="160" relative="1" as="geometry">
             <mxPoint x="400" y="350" as="sourcePoint" />
-            <mxPoint x="400" y="430" as="targetPoint" />
+            <mxPoint x="400" y="410" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -39,17 +39,17 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--20" value="- Add measures: OnDemandCost, Savings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="102" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-0" value="- Rename SubscriptionID -&gt; AccountID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--17">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-0" value="- Rename SubscriptionID -&gt; AccountID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="128" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-1" value="- Group by: CSP, Month, Scenario, AccountID,&#xa;                   Category, ChargeType, PricingModel,&#xa;                   Service, ResourceGroup, Tags&#xa;aggregate: Quantity, OnDemandCost, NetAmortizedCost, Savings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--17">
-          <mxGeometry y="154" width="480" height="76" as="geometry" />
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-1" value="- Group by: CSP, Month, Scenario, AccountID,&#xa;                   Category, ChargeType, PricingModel,&#xa;                   Service, ResourceGroup, Tags&#xa;aggregate: Quantity, OnDemandCost, Cost, Savings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
+          <mxGeometry y="154" width="480" height="86" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--23" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
-          <mxGeometry y="230" width="480" height="30" as="geometry" />
+          <mxGeometry y="240" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--24" value="Output (cleanData Table): dataset is smaller, Keep column: Tags for next step" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
-          <mxGeometry y="260" width="480" height="26" as="geometry" />
+          <mxGeometry y="270" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--26" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
@@ -75,7 +75,7 @@
             <mxPoint x="-38" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kdGjKbwBno01de8cuiCs-2" value="Python Script: extractTag.py&#xa;Purpose: Populate columns: &quot;ProductID&quot;, &quot;CustomerFromTag&quot;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="kdGjKbwBno01de8cuiCs-2" value="Python Script: extractTag.py&#xa;Purpose: Populate columns: &quot;PTCProductID&quot;, &quot;CustomerIDFromTag&quot;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="-80" width="560" height="430" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -89,26 +89,23 @@
         <mxCell id="kdGjKbwBno01de8cuiCs-5" value="- On table2: Drop rows with null values in Tags (However, not drop duplicate because &#xa;do not want to map back table1 using Tags as key)&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
           <mxGeometry y="102" width="560" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="kdGjKbwBno01de8cuiCs-9" value="- On table2: Iterate over each row of Tags to extract value of Product and Customer from Tag column" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
+        <mxCell id="kdGjKbwBno01de8cuiCs-9" value="- On table2: Iterate over each row of Tags column to extract value of PTCProductID and CustomerIDFromTag" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
           <mxGeometry y="140" width="560" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kdGjKbwBno01de8cuiCs-10" value="- Output table2 include columns: Index, Tags, Product, Customer" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
+        <mxCell id="kdGjKbwBno01de8cuiCs-10" value="- Output table2 include columns: Index, Tags, PTCProductID, CustomerFromTag" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
           <mxGeometry y="166" width="560" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kdGjKbwBno01de8cuiCs-11" value="- Rename columns: Product -&gt; ProductID; Customer -&gt; CustomerFromTag. " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-2" value="- Map table2 back to table1 on Index key. " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
           <mxGeometry y="192" width="560" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-2" value="- Map table2 back to table1 on Index key. " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kdGjKbwBno01de8cuiCs-2">
-          <mxGeometry y="218" width="560" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="kdGjKbwBno01de8cuiCs-12" value="- Group by: CSP, Month, Scenario, AccountID,&#xa;                   Category, ChargeType, PricingModel,&#xa;                   Service, ResourceGroup, &#xa;                   ProductID, CustomerFromTag&#xa;aggregate: Quantity, OnDemandCost, NetAmortizedCost, Savings&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
-          <mxGeometry y="244" width="560" height="96" as="geometry" />
+        <mxCell id="kdGjKbwBno01de8cuiCs-12" value="- Group by: CSP, Month, Scenario, AccountID,&#xa;                   Category, ChargeType, PricingModel,&#xa;                   Service, ResourceGroup, &#xa;                   PTCProductID, CustomerIDFromTag&#xa;aggregate: Quantity, OnDemandCost, Cost, Savings&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
+          <mxGeometry y="218" width="560" height="96" as="geometry" />
         </mxCell>
         <mxCell id="kdGjKbwBno01de8cuiCs-14" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
-          <mxGeometry y="340" width="560" height="20" as="geometry" />
+          <mxGeometry y="314" width="560" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kdGjKbwBno01de8cuiCs-15" value="- Output (extractTag Table): dataset smaller, have 2 new columns: ProductID, CustomerFromTag" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
-          <mxGeometry y="360" width="560" height="60" as="geometry" />
+        <mxCell id="kdGjKbwBno01de8cuiCs-15" value="- Output (extractTag Table): dataset smaller, have 2 new columns: PTCProductID, CustomerIDFromTag" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-2" vertex="1">
+          <mxGeometry y="334" width="560" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kdGjKbwBno01de8cuiCs-60" value="&lt;span style=&quot;text-align: left;&quot;&gt;Input &lt;br&gt;extractTag&amp;nbsp;&lt;/span&gt;" style="text;html=1;resizable=0;points=[];;align=center;verticalAlign=middle;labelBackgroundColor=none;rounded=0;shadow=0;strokeWidth=1;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
           <mxGeometry x="360" y="390" as="geometry" />
@@ -130,13 +127,13 @@
         <mxCell id="kdGjKbwBno01de8cuiCs-68" value="- Map extractTag and CustomerMapFromAlina using ResourceGroup as key&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-61" vertex="1">
           <mxGeometry y="158" width="560" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-9" value="- Reconcile 2 columns: CustomerName and CustomerFromTag&#xa;&#xa;   + If after merging, CustomerName shows NA, it will be filled by values from CustomerFromTag,  then &#xa;delete CustomerFromTag column&#xa;   &#xa;   + Because some rows have CustomerName, but does not have CustomerID. So, CustomerID will be&#xa;filled by &quot;N-CustomerName&quot; (N refers to New)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kdGjKbwBno01de8cuiCs-61">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-9" value="- Reconcile 2 columns: CustomerName and CustomerFromTag&#xa;&#xa;   + If after merging, CustomerName shows NA, it will be filled by values from CustomerFromTag,  then &#xa;delete CustomerFromTag column&#xa;   &#xa;   + Because some rows have CustomerName, but does not have CustomerID. So, CustomerID will be&#xa;filled by &quot;N-CustomerName&quot; (N refers to New)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-61" vertex="1">
           <mxGeometry y="188" width="560" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-36" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kdGjKbwBno01de8cuiCs-61">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-36" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-61" vertex="1">
           <mxGeometry y="310" width="560" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-37" value="- Output (mapCustomer Table):  - Group by: CSP, Month, Scenario, AccountID,&#xa;                   Category, ChargeType, PricingModel,&#xa;                   Service, ResourceGroup, &#xa;                   PTCProductID, PTCCustomerID&#xa;aggregate: Quantity, OnDemandCost, NetAmortizedCost, Savings&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kdGjKbwBno01de8cuiCs-61">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-37" value="- Output (mapCustomer Table):  - Group by: CSP, Month, Scenario, AccountID,&#xa;                   Category, ChargeType, PricingModel,&#xa;                   Service, ResourceGroup, &#xa;                   PTCProductID, PTCCustomerID&#xa;aggregate: Quantity, OnDemandCost, NetAmortizedCost, Savings&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-61" vertex="1">
           <mxGeometry y="330" width="560" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kdGjKbwBno01de8cuiCs-83" value="Folder" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -176,7 +173,7 @@
         <mxCell id="kdGjKbwBno01de8cuiCs-133" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="kdGjKbwBno01de8cuiCs-125" vertex="1">
           <mxGeometry y="52" width="160" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.441;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kdGjKbwBno01de8cuiCs-125">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.441;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="kdGjKbwBno01de8cuiCs-125" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="90" as="sourcePoint" />
             <mxPoint x="70.55999999999995" y="138.75" as="targetPoint" />
@@ -204,21 +201,21 @@
         <mxCell id="kdGjKbwBno01de8cuiCs-166" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/jpeg,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;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="380" width="28.23" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-3" value="Folder" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-3" value="Folder" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-760" y="440" width="150" height="130" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-4" value="         MappingFile" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="o2MhpFMnRLZHMtqYVOVF-3">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-4" value="         MappingFile" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o2MhpFMnRLZHMtqYVOVF-3" vertex="1">
           <mxGeometry y="26" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-5" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="o2MhpFMnRLZHMtqYVOVF-3">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-5" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="o2MhpFMnRLZHMtqYVOVF-3" vertex="1">
           <mxGeometry y="52" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-6" value="- CustomerMapFromAlina" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="o2MhpFMnRLZHMtqYVOVF-3">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-6" value="- CustomerMapFromAlina" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="o2MhpFMnRLZHMtqYVOVF-3" vertex="1">
           <mxGeometry y="72" width="150" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-7" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=1;exitY=0.655;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o2MhpFMnRLZHMtqYVOVF-6">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-7" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=1;exitY=0.655;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o2MhpFMnRLZHMtqYVOVF-6" edge="1">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
             <mxPoint x="-470" y="550" as="sourcePoint" />
             <mxPoint x="160" y="520" as="targetPoint" />
@@ -228,60 +225,60 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-8" value="Input for mapCustomer.py" style="text;html=1;resizable=0;points=[];;align=center;verticalAlign=middle;labelBackgroundColor=none;rounded=0;shadow=0;strokeWidth=1;fontSize=12;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-8" value="Input for mapCustomer.py" style="text;html=1;resizable=0;points=[];;align=center;verticalAlign=middle;labelBackgroundColor=none;rounded=0;shadow=0;strokeWidth=1;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
           <mxGeometry x="-280.0041025641021" y="504.9961538461538" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-13" value="" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-13" value="" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-820" y="701" width="980" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-14" value="#DRAWBACK1 : WE HAVE TO DECIDE MANUALLY WHAT NEW CUSTOMER IS SINGLE OR MULTI&#xa;filled by &quot;N-CustomerName&quot; (N refers to New)&#xa;&#xa;#DRAWBACK2 : THERE ARE SOME DIFFERENT CUSTOMERID (eg. CustomerID: &quot;N-Intel&quot;, &quot;N-INTEL COR&quot;), BUT ACTUALLY REFERS TO THE SAME A CUSTOMER&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-14" value="#DRAWBACK1 : WE HAVE TO DECIDE MANUALLY WHAT NEW CUSTOMER IS SINGLE OR MULTI&#xa;filled by &quot;N-CustomerName&quot; (N refers to New)&#xa;&#xa;#DRAWBACK2 : THERE ARE SOME DIFFERENT CUSTOMERID (eg. CustomerID: &quot;N-Intel&quot;, &quot;N-INTEL COR&quot;), BUT ACTUALLY REFERS TO THE SAME A CUSTOMER&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-800" y="710" width="930" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-17" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-17" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
             <mxPoint x="1230" y="691" as="sourcePoint" />
             <mxPoint x="1320" y="691" as="targetPoint" />
             <mxPoint x="-40" y="32" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-18" value="Folder" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-18" value="Folder" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1320" y="530" width="260" height="200" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-19" value="                         Used Tables" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="o2MhpFMnRLZHMtqYVOVF-18">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-19" value="                         Used Tables" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o2MhpFMnRLZHMtqYVOVF-18" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-20" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="o2MhpFMnRLZHMtqYVOVF-18">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-20" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="o2MhpFMnRLZHMtqYVOVF-18" vertex="1">
           <mxGeometry y="52" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-21" value="Customer Table&#xa;&#xa;Fact Table&#xa;&#xa;Product Table" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="o2MhpFMnRLZHMtqYVOVF-18">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-21" value="Customer Table&#xa;&#xa;Fact Table&#xa;&#xa;Product Table" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="o2MhpFMnRLZHMtqYVOVF-18" vertex="1">
           <mxGeometry y="72" width="260" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="kdGjKbwBno01de8cuiCs-127">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="kdGjKbwBno01de8cuiCs-127" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="860" as="sourcePoint" />
             <mxPoint x="760" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-23" value="" style="endArrow=none;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="860" as="sourcePoint" />
             <mxPoint x="430" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-29" value="Folder" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-29" value="Folder" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1040" y="960" width="190" height="90" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-30" value="Get Unique value for ProductID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="o2MhpFMnRLZHMtqYVOVF-29">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-30" value="Get Unique value for ProductID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o2MhpFMnRLZHMtqYVOVF-29" vertex="1">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-34" value="Add column: ProductName" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="o2MhpFMnRLZHMtqYVOVF-29">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-34" value="Add column: ProductName" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="o2MhpFMnRLZHMtqYVOVF-29" vertex="1">
           <mxGeometry y="52" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="o2MhpFMnRLZHMtqYVOVF-35" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="o2MhpFMnRLZHMtqYVOVF-35" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
             <mxPoint x="1230" y="1002.04" as="sourcePoint" />
             <mxPoint x="1530" y="730" as="targetPoint" />
